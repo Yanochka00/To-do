@@ -1,0 +1,167 @@
+#root 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding-top: 3em; 
+  position: absolute; 
+  top: 0; 
+  width: 100%; 
+}
+.title 
+{
+  color: #593f3f;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-bottom: 0.1em;
+}
+
+.state-task 
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+input
+{
+  padding: 10px;
+  font-size: 1em;
+  width: 200px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.input1 
+{
+  padding: 15px;
+  font-size: 1em;
+  width: 306px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 0.8em; 
+  margin-left: 0.6em;
+}
+
+.button 
+{
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 9px 15px;
+  border-radius: 5px;
+}
+
+
+.button:hover 
+{
+  border-color: rgb(184, 183, 184); 
+}
+
+.task-list 
+{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+.task-card
+{
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  width: 100%;
+  padding: 10px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkbox 
+{
+  width: 20px; 
+  height: 20px;
+  cursor: pointer;
+}
+
+.task-card.completed 
+{
+  background-color: #b9f7b9; 
+}
+.text-container 
+{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.task-card h4 
+{
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.task-card p 
+{
+  margin: 0;
+  color: #666;
+}
+
+.button1 
+{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 8px 12px;
+  margin-left: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button1:hover 
+{
+  background-color: red;
+  color: white;
+  border-color: rgb(0, 0, 0); 
+}
+
+.button1:focus 
+{
+  outline: none;
+}
+.dateCreated
+{
+  font-size: 0.7em;
+  color: #666; 
+  margin-top: 10px; 
+}
+.checkbox.completed
+{
+  color: aqua;
+}
+.error-message
+{
+  color: red;
+}
+.unfulfilled
+{
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 9px 15px;
+  border-radius: 5px;
+}
+.unfulfilled:hover 
+{
+  border-color: rgb(184, 183, 184); 
+}
